@@ -61,3 +61,13 @@ Si falla la conexión, comprueba MySQL, la importación y `config.php`. Si falla
 El `.gitignore` previene inclusiones accidentales comunes, pero no elimina archivos ya versionados. Revisa los archivos y el diff antes de publicarlos. Esta copia no incluye historial Git y no fue publicada automáticamente.
 
 La revisión de archivos para compartir el código no certifica un despliegue público. Se conservó la lógica original: el login no limita intentos y no hay controles contra abuso de formularios. Incluye consultas parametrizadas, CSRF en formularios y hash de contraseñas; un despliegue público necesita una revisión adicional de HTTPS, cookies, privacidad y configuración del servidor.
+## 📸 Capturas del proyecto
+
+### Página principal
+![Página principal de Bruma Café](screenshots/inicio.png)
+
+### Catálogo de productos
+![Catálogo de Bruma Café](screenshots/catalogo.png)
+
+### Panel administrativo
+![Panel administrativo de Bruma Café](screenshots/admin.png)
