@@ -64,10 +64,10 @@ La revisión de archivos para compartir el código no certifica un despliegue p�
 ## 📸 Capturas del proyecto
 
 ### 🏠 Página principal
-![Página principal de Bruma Café](screenshots/principal.jpeg)
+![Página principal de Bruma Café](principal.jpeg)
 
 ### ☕ Catálogo de productos
-![Catálogo de Bruma Café](screenshots/Menú.jpeg)
+![Catálogo de Bruma Café](Menú.jpeg)
 
 ### ⚙️ Panel administrativo
-![Panel administrativo de Bruma Café](screenshots/admin.jpeg)
+![Panel administrativo de Bruma Café](admin.jpeg)
