@@ -1,5 +1,0 @@
-<?php
-require __DIR__.'/includes/helpers.php';
-$id=(int)($_SESSION['last_order']??0);unset($_SESSION['last_order']);
-if(!$id){header('Location: index.php');exit;}
-?><!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pedido registrado · Bruma Café</title><link rel="stylesheet" href="assets/styles.css"></head><body><header class="top"><nav class="wrap nav"><a class="brand" href="index.php">bruma<span>.</span>café</a></nav></header><main class="wrap admin-main"><section class="panel confirmation"><div class="eyebrow">Demostración completada</div><h1 class="page-title">¡Pedido registrado!</h1><p>Tu número de pedido de prueba es <strong>#<?= $id ?></strong>.</p><p class="muted">Este proyecto es ficticio. No hay compra real ni cafetería que prepare el pedido.</p><a class="btn" href="index.php">Volver al inicio</a></section></main></body></html>
