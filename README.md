@@ -63,11 +63,11 @@ El `.gitignore` previene inclusiones accidentales comunes, pero no elimina archi
 La revisión de archivos para compartir el código no certifica un despliegue público. Se conservó la lógica original: el login no limita intentos y no hay controles contra abuso de formularios. Incluye consultas parametrizadas, CSRF en formularios y hash de contraseñas; un despliegue público necesita una revisión adicional de HTTPS, cookies, privacidad y configuración del servidor.
 ## 📸 Capturas del proyecto
 
-### Página principal
-![Página principal de Bruma Café](screenshots/inicio.png)
+### 🏠 Página principal
+![Página principal de Bruma Café](screenshots/principal.jpeg)
 
-### Catálogo de productos
-![Catálogo de Bruma Café](screenshots/catalogo.png)
+### ☕ Catálogo de productos
+![Catálogo de Bruma Café](screenshots/Menú.jpeg)
 
-### Panel administrativo
-![Panel administrativo de Bruma Café](screenshots/admin.png)
+### ⚙️ Panel administrativo
+![Panel administrativo de Bruma Café](screenshots/admin.jpeg)
